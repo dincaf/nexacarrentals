@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <a href="/" class="link-logo"><h2 class="logo">Nexa Car Rentals</h2></a>
+      <div class="toggle"></div>
+    </header>
+    <img src="img3.jpg" class="bk1">
+    <div class="overlay"></div>
+    <div class="text">
+        <br><br>
+        <h3>Program de lucru</h3>
+      <p>
+        PROGRAM:<br>
+Luni - Vineri: 08.00 - 16.00<br>
+Sambata si Duminica: Inchis<br>
+<br>
+
+REZERVARI SAMBATA SI DUMINICA:<br>
+Rezervarile pentru Sambata si Duminica se realizeaza Vineri: 08.00 - 16.00<br>
+Returnarile pentru Sambata si Duminica se fac prin anuntare prealabila.
+    </p>
+    <br><br>
+    <h3>Unde ne gasiti?</h3>
+    <address class="adresa">Adresa: Craiova, str.Opanez, nr. 29, Bl.E9, Sc.1, Ap.6, judetul Dolj
+        <br>Telefon: 0741234567
+        <br>Email: nexacarrentals@gmail.com
+    </address>
+    </div>
+  </section>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="/">Acasa</a></li>
+      <li><a href="despre.html">Despre</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <script>
+     const menuToggle = document.querySelector('.toggle');
+     const showcase = document.querySelector('.showcase');
+
+     menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2854.047310080915!2d23.786706676296582!3d44.32953237107816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d77b0e05c719%3A0xfcc94fc9d419004e!2sBloc%20E9%2C%20Strada%20Opanez%2029%2C%20Craiova%20200668!5e0!3m2!1sro!2sro!4v1703011955442!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>

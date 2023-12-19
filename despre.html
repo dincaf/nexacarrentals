@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despre noi</title>
+    <link rel="stylesheet" href="style-despre.css">
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <a href="/" class="link-logo"><h2 class="logo">Nexa Car Rentals</h2></a>
+      <div class="toggle"></div>
+    </header>
+    <img src="image002.jpg" class="bk1">
+    <div class="overlay"></div>
+    <div class="text">
+      <h3>Despre noi</h3>
+      <p>Suntem o companie ce ofera serviciul de inchirieri auto Craiova si iti punem la dispozitie solutii
+        eficiente la cele mai accesibile preturi. Principalul nostru obiectiv este de a oferi clientilor cele mai
+        bune servicii. Poti solicita chiar acum inchirierea unui autoturism in Craiova, iar noi garantam
+        preturi accesibile, comunicate transparent, astfel incat sa calatoresti in cele mai bune conditii.<br> 
+        La noi, inchirierea unei masini in Craiova se poate realiza cu formalitati si procedure minime, fara
+        limite de kilometri. Suntem prezenti pentru a-ti oferi toate informatiile de care ai nevoie si pentru a
+        programa inchirierea autoturismului dorit.
+        Preturi incepand de la 250 lei/zi.
+    </p>
+    <a href="contact.html">SUNA ACUM</a>
+    </div>
+  </section>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="/">Acasa</a></li>
+      <li><a href="despre.html">Despre</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <script>
+     const menuToggle = document.querySelector('.toggle');
+     const showcase = document.querySelector('.showcase');
+
+     menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>

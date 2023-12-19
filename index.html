@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexa Car Rentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Nexa Car Rentals</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="video2.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Cauti o masina </h2> 
+      <h3>de inchiriat in Craiova?</h3>
+      <p>Oferim solutii profesionale si servicii de inchirieri masini celor care au nevoie de ajutorul
+        nostru. Principalul obiectiv este satisfacerea nevoilor clientilor, de aceea, venim in intampinarea
+        lor cu solutii optime în privinta serviciilor rent a car.</p>
+      <a href="contact.html">Suna acum</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="/">Acasa</a></li>
+      <li><a href="despre.html">Despre</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <script>
+     const menuToggle = document.querySelector('.toggle');
+     const showcase = document.querySelector('.showcase');
+
+     menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>
